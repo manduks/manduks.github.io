@@ -1,8 +1,14 @@
 @font-face {
   font-family: 'OperatorMono-BookItalic';
+  src: url(./fonts/OperatorMono-BookItalic.otf);
 }
 @font-face {
   font-family: 'OperatorMono-Book';
+  src: url(./fonts/OperatorMono-Book.otf);
+}
+@font-face {
+  font-family: 'OperatorMono-Medium';
+  src: url(./fonts/OperatorMono-Medium.otf);
 }
 .pink {
   color: #B08CFF;
@@ -25,7 +31,7 @@ body {
   margin: auto;
 }
 p {
-  font-family: OperatorMono-BookItalic;
+  font-family: 'OperatorMono-BookItalic';
   font-size: 24px;
   color: #65737D;
   letter-spacing: 0;
@@ -38,7 +44,7 @@ section {
   width: 100%;
 }
 .code {
-  font-family: OperatorMono-Book;
+  font-family: 'OperatorMono-Book';
   font-size: 26px;
   color: #FFF !important;
   letter-spacing: 0;
@@ -66,7 +72,7 @@ section {
   align-items: center;
   justify-content: center;
   /* Resume: */
-  font-family: OperatorMono-Medium;
+  font-family: 'OperatorMono-Medium';
   font-size: 24px;
 }
 .button-container img {
@@ -88,15 +94,3 @@ footer img {
     width: 100%;
   }
 }
-/*@font-face {
-  font-family: 'WorkSans-SemiBold';
-  src: url(https://robotois.github.io/fonts/WorkSans-SemiBold.ttf);
-}
-@font-face {
-  font-family: 'BrandonGrotesque-Bold';
-  src: url(https://robotois.github.io/fonts/Brandon_blk.otf);
-}
-@font-face {
-  font-family: 'BrandonGrotesque-Light';
-  src: url(https://robotois.github.io/fonts/Brandon_light.otf);
-}*/
