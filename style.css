@@ -94,3 +94,9 @@ footer img {
     width: 100%;
   }
 }
+
+.say-hi {
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+}
