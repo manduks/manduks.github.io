@@ -1,14 +1,17 @@
 @font-face {
   font-family: 'OperatorMono-BookItalic';
   src: url(./fonts/OperatorMono-BookItalic.otf);
+  font-display: swap;
 }
 @font-face {
   font-family: 'OperatorMono-Book';
   src: url(./fonts/OperatorMono-Book.otf);
+  font-display: swap;
 }
 @font-face {
   font-family: 'OperatorMono-Medium';
   src: url(./fonts/OperatorMono-Medium.otf);
+  font-display: swap;
 }
 .pink {
   color: #B08CFF;
@@ -91,4 +94,18 @@ footer img {
   text-align: center;
   width: 100%;
   text-decoration: underline;
+}
+/* style.css */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
 }
